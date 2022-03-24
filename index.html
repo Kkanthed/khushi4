@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>css animation</title>
+        <style> 
+            div
+               {
+                width: 150px;
+                height: 150px;
+                background-color:steelblue;
+                position: relative;
+                animation-name: box;
+                animation-duration: 5s;
+                animation-iteration-count: 5;
+                }
+
+                @keyframes box{
+                0%  {background-color: steelblue;
+                left: 0px; top: 200px;}
+                25%  {background-color: yellow;
+                left: 200px; top: 0px;}
+                50%  {background-color: blue;
+                left: 200px; top: 200px;}
+                75%  {background-color: green;
+                left: 0px; top: 200px;}
+                100%  {background-color: orange;
+                left: 0px; top: 0px;}
+                }
+        </style>
+    </head>
+    <body>
+        <h1>USING CSS ANIMATION</h1>>
+        <div></div>
+        
+    </body>
+</html>
